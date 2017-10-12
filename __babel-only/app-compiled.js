@@ -92,7 +92,9 @@ var zbior = function () {
 
   _createClass(zbior, [{
     key: 'sortuj',
-    value: function sortuj(ile) {
+    value: function sortuj() {
+      var ile = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 5;
+
       var liczbyZbior = this.liczby;
       console.log(liczbyZbior);
       console.log('---------------');

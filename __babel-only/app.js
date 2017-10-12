@@ -77,7 +77,7 @@ class zbior {
 		this.liczby = liczby;
 		console.log(liczby);
 	}
-	sortuj(ile){
+	sortuj(ile = 5){
 		const liczbyZbior = this.liczby;
 		console.log(liczbyZbior);
 		console.log('---------------');
